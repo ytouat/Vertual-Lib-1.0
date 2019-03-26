@@ -1,12 +1,24 @@
 # Vertual-Lib-1.0
-
-Le fichier Auteurs.txt contient un ensemble de données sur les auteurs.
-Le fichier Livres.txt contient un ensemble de données sur les livres.
-
-Cette partie représente la création d’une interface graphique fonctionnel de
+Cette partie (1.0) représente la création d’une interface graphique fonctionnel de
 gestion d’une banque de données d’œuvres (Livres) et d’auteurs.
 
-Voila une brève description des fonctions implémentées dans la classe principale Bdd.
+Descriptions des fichiers et les classes.
+
+Auteur.java, Livre.java : les deux classes Auteur et Livre
+
+FenetrePrincipale.java : Classe qui définie l’interface graphique principale du projet.
+
+FenetrePersoAuteur.java, FenetrePersoLivre.java : les interfaces pour saisir les informations pour les auteurs ou les livres qu’on souhaite ajouter à notre base de données.  
+
+FenetreRapport.java : fenêtre pour affiche les rapports des recherches qu’on effectue.
+
+Bdd.java : classe principale du projet ou toutes les méthodes sont implémentées.
+
+Le fichier Auteurs.txt contient un ensemble de données sur les auteurs.
+
+Le fichier Livres.txt contient un ensemble de données sur les livres.
+
+Voila une brève description des methodes implémentées dans la classe principale Bdd.
 
 •	lireBddAut: permet de lire un fichier d’auteurs passé en argument de créer la map et ajouter les auteurs à la map. La partie valeur associée à chaque auteur est une nouvelle collection vide.
 
